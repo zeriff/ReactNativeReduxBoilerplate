@@ -1,1 +1,2 @@
 export const SETLOADING = 'SETLOADING';
+export const SELECT_LIBRARY = 'SELECT_LIBRARY';
