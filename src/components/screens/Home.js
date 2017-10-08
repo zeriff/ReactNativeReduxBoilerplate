@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Text, Content, Icon } from 'native-base';
+import { Card, CardItem, Button, Text, Content, Icon } from 'native-base';
 import { connect } from 'react-redux';
 import * as actions from '../../actions';
 
@@ -15,13 +15,17 @@ class Home extends Component {
     render() {
         return (
             <Content style={{ margin: 10 }}>
-                <Button
-                    iconLeft
-                    onPress={this.onButtonPress.bind(this)}
-                >
-                    <Icon name='beer' />
-                    <Text>Beer</Text>
-                </Button>
+                <Card>
+                    <CardItem>
+                        <Button
+                            iconLeft
+                            onPress={this.onButtonPress.bind(this)}
+                        >
+                            <Icon name='beer' />
+                            <Text>Beer</Text>
+                        </Button>
+                    </CardItem>
+                </Card>
             </Content>
         );
     }

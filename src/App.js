@@ -5,7 +5,6 @@ import Spinner from 'react-native-loading-spinner-overlay';
 import Home from './components/screens/Home';
 
 class App extends Component {
-
     render() {
         return (
             <Container>
@@ -19,7 +18,6 @@ class App extends Component {
             </Container>
         );
     }
-
 }
 
 
